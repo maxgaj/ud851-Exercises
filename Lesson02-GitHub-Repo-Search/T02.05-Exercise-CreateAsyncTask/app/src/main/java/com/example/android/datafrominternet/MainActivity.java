@@ -79,7 +79,11 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         protected void onPostExecute(String s) {
-            mSearchResultsTextView.setText(s);
+            // CORRECTION
+            // add validation on s
+            if (s != null && !s.equals("")) {
+                mSearchResultsTextView.setText(s);
+            }
         }
     }
 
