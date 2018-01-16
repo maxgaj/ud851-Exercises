@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
         mNewPartySizeEditText.clearFocus();
     }
 
-    
+
     /**
      * Query the mDb and get all guests from the waitlist table
      *
